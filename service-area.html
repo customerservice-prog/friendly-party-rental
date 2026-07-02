@@ -3,132 +3,159 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Service Area | Friendly Party Rental</title>
-<meta name="description" content="Friendly Party Rental delivers party equipment across Syracuse, Minoa, Cicero, Manlius, Liverpool, Fayetteville, Camillus, Baldwinsville, Clay and more.">
+<title>Party Rental Service Area - Syracuse, NY &amp; Central New York | Friendly Party Rental</title>
+<meta name="description" content="Friendly Party Rental serves Syracuse, Onondaga County, and all of Central New York. Delivery available to Liverpool, Fayetteville, Baldwinsville, Oswego, Auburn, and more.">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div id="topbar" class="topbar">
+<div class="topbar">
   <div class="topbar-inner">
-    <span><a href="tel:3158841498">(315) 884-1498</a></span>
+    <span>&#128222; <a href="tel:3158841498">(315) 884-1498</a></span>
     <span><a href="mailto:info@friendlypartyrental.com">info@friendlypartyrental.com</a></span>
     <span>Syracuse, NY &amp; Surrounding Areas</span>
     <span class="topbar-social">
       <a href="https://www.facebook.com/friendlypartyrental" target="_blank">Facebook</a>
-      <a href="https://www.instagram.com/friendlypartyrental" target="_blank">Instagram</a>
+      <a href="https://www.youtube.com/@friendlypartyrental" target="_blank">YouTube</a>
+      <a href="https://www.yelp.com/biz/friendly-party-rental" target="_blank">Yelp</a>
     </span>
   </div>
 </div>
 <header class="site-header">
   <div class="header-inner">
     <a href="index.html" class="logo-link"><img src="https://files.sysers.com/cp/upload/315/editor/1.png" alt="Friendly Party Rental Logo" class="logo-img"></a>
-    <nav class="main-nav">
-      <button class="hamburger" aria-label="Menu">&#9776;</button>
-      <ul class="nav-list">
-        <li><a href="index.html">Home</a></li>
-        <li class="has-dropdown"><a href="rentals.html">Rentals</a>
-          <ul class="dropdown">
-            <li><a href="rentals.html">All Rentals</a></li>
-            <li><a href="weddings.html">Weddings</a></li>
-          </ul>
-        </li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="service-area.html" class="active">Service Area</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="faq.html">FAQs</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="https://friendly-party-rental-llc.booqable.com" class="btn-book" target="_blank">Book Now</a></li>
-      </ul>
-    </nav>
+    <div class="header-book">
+      <a href="https://friendly-party-rental-llc.booqable.com" class="btn btn-dark">Book Now &#9658;</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">&#9776;</button>
+    </div>
   </div>
 </header>
-<section class="page-hero" style="background:#f5a31b;padding:60px 20px;text-align:center;">
-  <h1 style="color:#fff;font-size:2.5rem;margin:0 0 10px;">Service Area</h1>
-  <p style="color:#fff;font-size:1.1rem;max-width:600px;margin:0 auto;">We deliver party equipment across Central New York. Check if we serve your area below!</p>
+<nav class="main-nav" id="mainNav">
+  <div class="nav-inner">
+    <ul class="nav-list">
+      <li><a href="index.html">Home</a></li>
+      <li class="has-dropdown"><a href="rentals.html">Rentals</a>
+        <ul class="dropdown">
+          <li><a href="rentals.html">All Rentals</a></li>
+          <li><a href="weddings.html">Weddings</a></li>
+        </ul>
+      </li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="service-area.html" class="active">Service Area</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <h1>Our Service Area</h1>
+  <p>Serving Syracuse, Onondaga County, and all of Central New York with premium party rentals</p>
 </section>
-<section class="section-wrap" style="background:#fff;padding:60px 20px;">
+
+<section class="service-area-section" style="padding:4rem 0;">
   <div class="container">
-    <h2 style="text-align:center;color:#1a1a1a;margin-bottom:10px;">Areas We Serve</h2>
-    <p style="text-align:center;color:#555;margin-bottom:40px;">Friendly Party Rental proudly delivers to the following communities in the Syracuse, NY area:</p>
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:20px;max-width:1100px;margin:0 auto 50px;">
-      <div style="background:#f9f9f9;border-radius:8px;padding:25px;text-align:center;border-top:4px solid #f5a31b;">
-        <h3 style="margin:0 0 8px;color:#1a1a1a;">Syracuse</h3>
-        <p style="margin:0;color:#555;font-size:.95rem;">Central hub &amp; downtown</p>
+    <h2 class="section-title">We Deliver To <span class="gold">Your Location</span></h2>
+    <div class="section-divider"></div>
+    <p class="section-sub">Friendly Party Rental provides delivery, setup, and pickup throughout the greater Syracuse area and Central New York. Whether you're hosting an event in the city or a rural venue, we'll bring the equipment right to you.</p>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:2rem;margin-top:3rem;">
+      <div style="background:#fff;border:1px solid #eee;border-top:3px solid #f5a31b;border-radius:8px;padding:2rem;box-shadow:0 2px 8px rgba(0,0,0,.07);">
+        <h3 style="font-family:'Montserrat',sans-serif;color:#111;margin-bottom:1rem;">&#128205; Onondaga County</h3>
+        <ul style="list-style:none;padding:0;line-height:2;color:#555;">
+          <li>Syracuse</li>
+          <li>Liverpool</li>
+          <li>Fayetteville</li>
+          <li>Manlius</li>
+          <li>Baldwinsville</li>
+          <li>Cicero</li>
+          <li>Clay</li>
+          <li>Camillus</li>
+          <li>Solvay</li>
+          <li>Nedrow</li>
+          <li>LaFayette</li>
+          <li>Tully</li>
+        </ul>
       </div>
-      <div style="background:#f9f9f9;border-radius:8px;padding:25px;text-align:center;border-top:4px solid #f5a31b;">
-        <h3 style="margin:0 0 8px;color:#1a1a1a;">Minoa</h3>
-        <p style="margin:0;color:#555;font-size:.95rem;">East Syracuse suburb</p>
+      <div style="background:#fff;border:1px solid #eee;border-top:3px solid #f5a31b;border-radius:8px;padding:2rem;box-shadow:0 2px 8px rgba(0,0,0,.07);">
+        <h3 style="font-family:'Montserrat',sans-serif;color:#111;margin-bottom:1rem;">&#128205; Surrounding Counties</h3>
+        <ul style="list-style:none;padding:0;line-height:2;color:#555;">
+          <li>Oswego County</li>
+          <li>Cayuga County</li>
+          <li>Madison County</li>
+          <li>Cortland County</li>
+          <li>Oneida County</li>
+          <li>Auburn</li>
+          <li>Oswego</li>
+          <li>Fulton</li>
+          <li>Rome</li>
+          <li>Utica (extended delivery)</li>
+        </ul>
       </div>
-      <div style="background:#f9f9f9;border-radius:8px;padding:25px;text-align:center;border-top:4px solid #f5a31b;">
-        <h3 style="margin:0 0 8px;color:#1a1a1a;">Cicero</h3>
-        <p style="margin:0;color:#555;font-size:.95rem;">North of Syracuse</p>
+      <div style="background:#fff;border:1px solid #eee;border-top:3px solid #f5a31b;border-radius:8px;padding:2rem;box-shadow:0 2px 8px rgba(0,0,0,.07);">
+        <h3 style="font-family:'Montserrat',sans-serif;color:#111;margin-bottom:1rem;">&#128205; Popular Venues</h3>
+        <ul style="list-style:none;padding:0;line-height:2;color:#555;">
+          <li>Onondaga Lake Park</li>
+          <li>Green Lakes State Park</li>
+          <li>Clark Reservation</li>
+          <li>Highland Forest</li>
+          <li>Burnet Park</li>
+          <li>Lipe Art Park</li>
+          <li>Any backyard or private property</li>
+          <li>Event halls &amp; banquet centers</li>
+          <li>Farms &amp; vineyards</li>
+          <li>Corporate campuses</li>
+        </ul>
       </div>
-      <div style="background:#f9f9f9;border-radius:8px;padding:25px;text-align:center;border-top:4px solid #f5a31b;">
-        <h3 style="margin:0 0 8px;color:#1a1a1a;">Manlius</h3>
-        <p style="margin:0;color:#555;font-size:.95rem;">Eastern suburb</p>
-      </div>
-      <div style="background:#f9f9f9;border-radius:8px;padding:25px;text-align:center;border-top:4px solid #f5a31b;">
-        <h3 style="margin:0 0 8px;color:#1a1a1a;">Liverpool</h3>
-        <p style="margin:0;color:#555;font-size:.95rem;">North shore community</p>
-      </div>
-      <div style="background:#f9f9f9;border-radius:8px;padding:25px;text-align:center;border-top:4px solid #f5a31b;">
-        <h3 style="margin:0 0 8px;color:#1a1a1a;">Fayetteville</h3>
-        <p style="margin:0;color:#555;font-size:.95rem;">Historic eastern village</p>
-      </div>
-      <div style="background:#f9f9f9;border-radius:8px;padding:25px;text-align:center;border-top:4px solid #f5a31b;">
-        <h3 style="margin:0 0 8px;color:#1a1a1a;">Camillus</h3>
-        <p style="margin:0;color:#555;font-size:.95rem;">Western suburb</p>
-      </div>
-      <div style="background:#f9f9f9;border-radius:8px;padding:25px;text-align:center;border-top:4px solid #f5a31b;">
-        <h3 style="margin:0 0 8px;color:#1a1a1a;">Baldwinsville</h3>
-        <p style="margin:0;color:#555;font-size:.95rem;">Northwest community</p>
-      </div>
-      <div style="background:#f9f9f9;border-radius:8px;padding:25px;text-align:center;border-top:4px solid #f5a31b;">
-        <h3 style="margin:0 0 8px;color:#1a1a1a;">Clay</h3>
-        <p style="margin:0;color:#555;font-size:.95rem;">Northern suburb</p>
-      </div>
-      <div style="background:#f9f9f9;border-radius:8px;padding:25px;text-align:center;border-top:4px solid #f5a31b;">
-        <h3 style="margin:0 0 8px;color:#1a1a1a;">North Syracuse</h3>
-        <p style="margin:0;color:#555;font-size:.95rem;">North side village</p>
-      </div>
-      <div style="background:#f9f9f9;border-radius:8px;padding:25px;text-align:center;border-top:4px solid #f5a31b;">
-        <h3 style="margin:0 0 8px;color:#1a1a1a;">Cazenovia</h3>
-        <p style="margin:0;color:#555;font-size:.95rem;">Southeast lakeside town</p>
-      </div>
-      <div style="background:#f9f9f9;border-radius:8px;padding:25px;text-align:center;border-top:4px solid #f5a31b;">
-        <h3 style="margin:0 0 8px;color:#1a1a1a;">East Syracuse</h3>
-        <p style="margin:0;color:#555;font-size:.95rem;">Eastern borough</p>
-      </div>
-    </div>
-    <div style="background:#f5a31b;border-radius:12px;padding:40px;max-width:800px;margin:0 auto 50px;color:#fff;">
-      <h2 style="margin:0 0 20px;font-size:1.8rem;">Delivery Information</h2>
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:30px;">
-        <div>
-          <h3 style="margin:0 0 10px;font-size:1.1rem;">Delivery Fees</h3>
-          <p style="margin:0 0 8px;"><strong>Local (0-15 miles):</strong> Starting from $25</p>
-          <p style="margin:0 0 8px;"><strong>Regional (15-30 miles):</strong> Starting from $45</p>
-          <p style="margin:0;"><strong>Extended areas:</strong> Call for quote</p>
-        </div>
-        <div>
-          <h3 style="margin:0 0 10px;font-size:1.1rem;">Delivery Schedule</h3>
-          <p style="margin:0 0 8px;">We deliver <strong>day-before</strong> and pick up <strong>day-after</strong> your event.</p>
-          <p style="margin:0;">Same-day delivery available — call to confirm availability.</p>
-        </div>
-      </div>
-    </div>
-    <div style="text-align:center;">
-      <h2 style="color:#1a1a1a;margin-bottom:15px;">Not Sure If We Deliver To You?</h2>
-      <p style="color:#555;margin-bottom:30px;max-width:500px;margin-left:auto;margin-right:auto;">Give us a call or send a message — we are always happy to check availability for your zip code!</p>
-      <a href="tel:3158841498" class="btn-yellow" style="margin-right:15px;">Call (315) 884-1498</a>
-      <a href="https://friendly-party-rental-llc.booqable.com" class="btn-yellow" target="_blank">Book Online</a>
     </div>
   </div>
 </section>
-<footer class="site-footer-main">
+
+<section class="delivery-info" style="background:#111;padding:4rem 0;">
+  <div class="container">
+    <h2 class="section-title" style="color:#fff;">Delivery &amp; <span class="gold">Setup Info</span></h2>
+    <div class="section-divider"></div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:2rem;margin-top:2rem;">
+      <div style="background:#1a1a1a;border:1px solid #333;border-radius:8px;padding:2rem;text-align:center;color:#fff;">
+        <div style="font-size:2.5rem;margin-bottom:1rem;">&#128666;</div>
+        <h3 style="font-family:'Montserrat',sans-serif;color:#f5a31b;margin-bottom:.5rem;">Free Local Delivery</h3>
+        <p style="color:#aaa;">Free delivery within 15 miles of Syracuse. Competitive rates for extended areas.</p>
+      </div>
+      <div style="background:#1a1a1a;border:1px solid #333;border-radius:8px;padding:2rem;text-align:center;color:#fff;">
+        <div style="font-size:2.5rem;margin-bottom:1rem;">&#128295;</div>
+        <h3 style="font-family:'Montserrat',sans-serif;color:#f5a31b;margin-bottom:.5rem;">Professional Setup</h3>
+        <p style="color:#aaa;">Our trained crew handles all setup and breakdown so you can focus on your event.</p>
+      </div>
+      <div style="background:#1a1a1a;border:1px solid #333;border-radius:8px;padding:2rem;text-align:center;color:#fff;">
+        <div style="font-size:2.5rem;margin-bottom:1rem;">&#8987;</div>
+        <h3 style="font-family:'Montserrat',sans-serif;color:#f5a31b;margin-bottom:.5rem;">Flexible Scheduling</h3>
+        <p style="color:#aaa;">We work around your event schedule for delivery and pickup timing.</p>
+      </div>
+      <div style="background:#1a1a1a;border:1px solid #333;border-radius:8px;padding:2rem;text-align:center;color:#fff;">
+        <div style="font-size:2.5rem;margin-bottom:1rem;">&#128222;</div>
+        <h3 style="font-family:'Montserrat',sans-serif;color:#f5a31b;margin-bottom:.5rem;">Questions? Call Us</h3>
+        <p style="color:#aaa;"><a href="tel:3158841498" style="color:#f5a31b;">(315) 884-1498</a> — we're happy to confirm delivery availability for your location.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <h2>Ready to Book?</h2>
+    <p>Check availability and book online, or call us to discuss delivery to your location.</p>
+    <div class="cta-btns">
+      <a href="https://friendly-party-rental-llc.booqable.com" class="btn btn-primary" target="_blank">Book Online Now</a>
+      <a href="tel:3158841498" class="btn btn-outline">&#128222; (315) 884-1498</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
   <div class="footer-inner">
     <div class="footer-col">
       <img src="https://files.sysers.com/cp/upload/315/editor/1.png" alt="Friendly Party Rental" class="footer-logo">
-      <p>Syracuse's #1 party rental company. Bounce houses, tents, tables, chairs &amp; more!</p>
+      <p>Syracuse's premier party rental company. Quality equipment, professional service, and stress-free events.</p>
     </div>
     <div class="footer-col">
       <h4>Quick Links</h4>
@@ -138,28 +165,52 @@
         <li><a href="weddings.html">Weddings</a></li>
         <li><a href="gallery.html">Gallery</a></li>
         <li><a href="service-area.html">Service Area</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="faq.html">FAQs</a></li>
-        <li><a href="contact.html">Contact</a></li>
       </ul>
     </div>
     <div class="footer-col">
-      <h4>Contact</h4>
-      <p><a href="tel:3158841498">(315) 884-1498</a></p>
-      <p><a href="mailto:info@friendlypartyrental.com">info@friendlypartyrental.com</a></p>
-      <p>Syracuse, NY &amp; Surrounding Areas</p>
+      <h4>Rental Categories</h4>
+      <ul>
+        <li><a href="https://friendly-party-rental-llc.booqable.com/categories/tent-rentals" target="_blank">Tent Rentals</a></li>
+        <li><a href="https://friendly-party-rental-llc.booqable.com/categories/tables-chairs" target="_blank">Tables &amp; Chairs</a></li>
+        <li><a href="https://friendly-party-rental-llc.booqable.com/categories/bounce-houses" target="_blank">Bounce Houses</a></li>
+        <li><a href="https://friendly-party-rental-llc.booqable.com/categories/dance-floor-rentals" target="_blank">Dance Floors</a></li>
+        <li><a href="https://friendly-party-rental-llc.booqable.com/categories/concession-machines" target="_blank">Concessions</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact Us</h4>
+      <ul>
+        <li>&#128222; <a href="tel:3158841498">(315) 884-1498</a></li>
+        <li>&#9993; <a href="mailto:info@friendlypartyrental.com">info@friendlypartyrental.com</a></li>
+        <li>&#128205; Syracuse, NY &amp; Surrounding Areas</li>
+      </ul>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/friendlypartyrental" target="_blank">Facebook</a>
+        <a href="https://www.youtube.com/@friendlypartyrental" target="_blank">YouTube</a>
+        <a href="https://www.yelp.com/biz/friendly-party-rental" target="_blank">Yelp</a>
+      </div>
     </div>
   </div>
   <div class="footer-bottom">
-    <p>&copy; 2024 Friendly Party Rental LLC. All rights reserved.</p>
+    <p>&copy; 2025 Friendly Party Rental LLC. All Rights Reserved. | Syracuse, NY</p>
   </div>
 </footer>
-<div id="stickyBar" class="sticky-bar">
-  <span>Ready to book? Reserve your party equipment today!</span>
-  <a href="https://friendly-party-rental-llc.booqable.com" class="sticky-book" target="_blank">Book Now</a>
-  <a href="tel:3158841498" class="sticky-call">Call Us</a>
-  <button class="sticky-x" onclick="document.getElementById('stickyBar').style.display='none'">&times;</button>
+
+<div class="sticky-bar">
+  <a href="https://friendly-party-rental-llc.booqable.com" class="btn btn-gold" target="_blank">BOOK NOW</a>
+  <a href="tel:3158841498" class="btn btn-dark-sticky">&#128222; CALL US</a>
 </div>
-<script src="js/main.js"></script>
+
+<script>
+const hamburger = document.getElementById('hamburger');
+const mainNav = document.getElementById('mainNav');
+if(hamburger && mainNav){
+  hamburger.addEventListener('click', function(){
+    mainNav.classList.toggle('open');
+    this.textContent = mainNav.classList.contains('open') ? '✕' : '☰';
+  });
+}
+</script>
+<script src="https://55447dae-f899-4b7a-9a5b-23234c3e9094.assets.booqable.com/v2/booqable.js"></script>
 </body>
-</html>
+            </html>
