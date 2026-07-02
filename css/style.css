@@ -1,4 +1,175 @@
-/* Friendly Party Rental - style.css | Brand: #f5a31b */
+/* Friendly Party Rental - Complete Stylesheet | Brand: #f5a31b */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;line-height:1.7;color:#333;background:#fff}
+a{color:#f5a31b;text-decoration:none}
+a:hover{text-decoration:underline}
+img{max-width:100%;height:auto}
+ul{list-style:none}
+.container{max-width:1200px;margin:0 auto;padding:0 20px}
+section{padding:55px 0}
+h1{font-size:2rem;font-weight:700;color:#222;margin-bottom:1rem}
+h2{font-size:1.7rem;font-weight:700;color:#222;margin-bottom:1.2rem;text-align:center}
+h3{font-size:1.2rem;font-weight:700;color:#222;margin-bottom:.5rem}
+
+/* BUTTONS */
+.btn-primary{display:inline-block;background:#f5a31b;color:#fff;padding:14px 32px;border-radius:4px;font-weight:700;font-size:16px;cursor:pointer;text-decoration:none;border:none;transition:background .2s}
+.btn-primary:hover{background:#d4890e;text-decoration:none;color:#fff}
+.btn-book{display:inline-block;background:#f5a31b;color:#fff;padding:10px 22px;border-radius:4px;font-weight:700;font-size:14px;text-decoration:none;transition:background .2s}
+.btn-book:hover{background:#d4890e;text-decoration:none;color:#fff}
+.btn-pkg{display:inline-block;background:transparent;color:#f5a31b;border:2px solid #f5a31b;padding:8px 18px;border-radius:4px;font-weight:700;font-size:13px;text-decoration:none;transition:all .2s}
+.btn-pkg:hover{background:#f5a31b;color:#fff;text-decoration:none}
+
+/* TOP BAR */
+.topbar{background:#f5a31b;color:#fff;padding:7px 0;font-size:12.5px}
+.topbar a{color:#fff}
+.topbar a:hover{text-decoration:underline}
+.topbar-inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px}
+.topbar-social{display:flex;gap:12px;align-items:center}
+.topbar-social a{color:#fff;font-weight:700;font-size:12px;text-decoration:none;padding:2px 6px;border:1px solid rgba(255,255,255,.5);border-radius:3px}
+.topbar-social a:hover{background:rgba(0,0,0,.15);text-decoration:none}
+
+/* HEADER */
+.site-header{background:#fff;box-shadow:0 2px 8px rgba(0,0,0,.1);position:sticky;top:0;z-index:1000;padding:10px 0}
+.header-inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+.logo-link{display:flex;align-items:center}
+.logo{height:65px;width:auto}
+.main-nav{flex:1}
+.main-nav ul{display:flex;gap:4px;flex-wrap:wrap;align-items:center}
+.main-nav ul li a{display:block;padding:8px 10px;color:#333;font-weight:600;font-size:13.5px;border-radius:3px;transition:color .2s,background .2s;text-decoration:none}
+.main-nav ul li a:hover{color:#f5a31b;background:#fff8ee;text-decoration:none}
+.has-dropdown{position:relative}
+.has-dropdown .dropdown{display:none;position:absolute;top:100%;left:0;background:#fff;box-shadow:0 4px 15px rgba(0,0,0,.12);min-width:210px;border-radius:4px;padding:6px 0;z-index:200}
+.has-dropdown:hover .dropdown{display:block}
+.has-dropdown .dropdown li a{padding:9px 16px;font-size:13px;font-weight:500}
+.header-actions{display:flex;align-items:center;gap:10px;margin-left:auto}
+.hamburger{display:none;background:none;border:none;font-size:24px;cursor:pointer;color:#333;padding:6px}
+
+/* HERO */
+.hero{background-image:url('https://files.sysers.com/cp/upload/default_design/gallery/full/comic_book_background.jpg');background-size:cover;background-position:center;background-repeat:no-repeat;padding:50px 20px;min-height:300px;display:flex;align-items:center;justify-content:center}
+.hero-inner{max-width:1100px;margin:0 auto;display:flex;justify-content:center;align-items:center;gap:30px;flex-wrap:wrap}
+.hero-inner a{display:block;flex:0 1 280px;max-width:300px}
+.hero-inner img{width:100%;height:auto;filter:drop-shadow(0 4px 12px rgba(0,0,0,.3));transition:transform .2s}
+.hero-inner a:hover img{transform:scale(1.05)}
+
+/* INTRO */
+.intro-section{padding:60px 0;text-align:center;background:#fff}
+.intro-section .container{max-width:900px}
+.intro-section p{margin-bottom:1rem;font-size:15.5px;color:#555}
+.intro-section .serving-text{color:#777;font-size:14px}
+.intro-section .btn-primary{margin-top:1.5rem;font-size:17px;padding:16px 36px}
+
+/* VALUE PROPS */
+.value-props{background:#f8f8f8;padding:55px 0}
+.vp-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px}
+.vp-item{text-align:center;padding:30px 20px;background:#fff;border-radius:8px;box-shadow:0 2px 10px rgba(0,0,0,.06)}
+.vp-icon{font-size:2.5rem;margin-bottom:.8rem}
+.vp-item h3{color:#f5a31b;margin-bottom:.6rem;font-size:1.05rem}
+.vp-item p{color:#666;font-size:14px}
+
+/* CATEGORIES */
+.categories-section{background:#fff;padding:60px 0}
+.categories-section h2{font-size:1.3rem;color:#555;font-weight:600;margin-bottom:2rem}
+.cat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.cat-card{display:block;text-decoration:none;border:2px solid #e8e8e8;border-radius:6px;overflow:hidden;transition:border-color .2s,transform .2s;background:#fff}
+.cat-card:hover{border-color:#f5a31b;transform:translateY(-3px);text-decoration:none}
+.cat-img{width:100%;height:160px;background-size:cover;background-position:center;background-repeat:no-repeat;background-color:#f5f5f5}
+.cat-card span{display:block;text-align:center;padding:10px 8px;font-weight:600;font-size:13px;color:#333;line-height:1.3}
+.cat-card:hover span{color:#f5a31b}
+
+/* HOW IT WORKS */
+.how-it-works{background:#f5a31b;padding:55px 0;text-align:center;color:#fff}
+.how-it-works h2{color:#fff}
+.steps-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;margin-top:2rem}
+.step{background:rgba(255,255,255,.15);border-radius:8px;padding:30px 20px}
+.step-icon{font-size:2.5rem;display:block;margin-bottom:.8rem}
+.step p{font-size:16px;font-weight:600;color:#fff}
+
+/* REVIEWS */
+.reviews-section{background:#f8f8f8;padding:60px 0}
+.reviews-header{display:flex;align-items:center;gap:12px;margin-bottom:2rem;flex-wrap:wrap;justify-content:center}
+.stars-big{color:#f5a31b;font-size:1.8rem;letter-spacing:2px}
+.rating-num{font-size:2rem;font-weight:700;color:#333}
+.rating-ct{color:#666;font-size:14px}
+.google-link{background:#4285f4;color:#fff;padding:8px 16px;border-radius:4px;font-size:13px;font-weight:600;text-decoration:none;transition:background .2s}
+.google-link:hover{background:#3367d6;color:#fff;text-decoration:none}
+.reviews-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.review-card{background:#fff;border-radius:8px;padding:24px;box-shadow:0 2px 8px rgba(0,0,0,.07)}
+.rev-stars{color:#f5a31b;font-size:1.1rem;margin-bottom:.6rem}
+.review-card p{color:#555;font-size:14px;line-height:1.6;margin-bottom:.8rem;font-style:italic}
+.review-card strong{color:#333;font-size:13px}
+
+/* WEDDING PACKAGES */
+.wedding-packages{background:#fff;padding:60px 0}
+.pkg-sub{text-align:center;color:#666;margin-bottom:2rem}
+.pkg-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}
+.pkg-card{border:2px solid #e8e8e8;border-radius:8px;padding:24px 16px;text-align:center;transition:border-color .2s,transform .2s}
+.pkg-card:hover{border-color:#f5a31b;transform:translateY(-3px)}
+.pkg-card.featured{border-color:#f5a31b;background:#fff8ee;position:relative}
+.pkg-popular{background:#f5a31b;color:#fff;font-size:11px;font-weight:700;padding:3px 10px;border-radius:20px;display:inline-block;margin-bottom:.8rem;letter-spacing:.5px}
+.pkg-tag{font-size:11px;font-weight:700;color:#999;letter-spacing:.5px;text-transform:uppercase;margin-bottom:.5rem}
+.pkg-price{font-size:2rem;font-weight:800;color:#f5a31b;margin-bottom:.4rem}
+.pkg-name{font-weight:700;color:#222;margin-bottom:.3rem;font-size:15px}
+.pkg-desc{color:#777;font-size:13px;margin-bottom:1rem}
+
+/* SEO SECTION */
+.seo-section{background:#f8f8f8;padding:60px 0}
+.seo-section h2{text-align:left;font-size:1.5rem;margin-bottom:1.2rem}
+.seo-section h3{margin-top:1.8rem;color:#f5a31b}
+.seo-section p{color:#555;margin-bottom:.8rem;font-size:14.5px}
+.seo-section a{color:#f5a31b}
+
+/* FOOTER */
+.site-footer{background:#1a1a1a;color:#aaa;padding:50px 0 0}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1.5fr;gap:40px;padding-bottom:40px}
+.footer-col h4{color:#fff;font-size:14px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;margin-bottom:1rem}
+.footer-logo{height:60px;width:auto;margin-bottom:1rem;filter:brightness(0) invert(1)}
+.footer-col p{font-size:13.5px;line-height:1.8;color:#aaa}
+.footer-col a{color:#ccc;font-size:13.5px}
+.footer-col a:hover{color:#f5a31b;text-decoration:none}
+.footer-col ul li{margin-bottom:.4rem}
+.footer-social{display:flex;gap:12px;margin-top:1rem}
+.footer-social a{color:#ccc;font-size:13px;border:1px solid #444;padding:4px 10px;border-radius:3px;transition:all .2s;text-decoration:none}
+.footer-social a:hover{border-color:#f5a31b;color:#f5a31b}
+.footer-bottom{border-top:1px solid #333;padding:16px 20px;text-align:center;font-size:12.5px;color:#666}
+
+/* STICKY BAR */
+.sticky-bar{position:fixed;bottom:0;left:0;right:0;background:#fff;border-top:2px solid #f5a31b;display:flex;align-items:center;gap:0;z-index:2000;box-shadow:0 -2px 12px rgba(0,0,0,.1)}
+.sticky-book{flex:1;background:#f5a31b;color:#fff;text-align:center;padding:14px;font-weight:700;font-size:15px;text-decoration:none;display:block;transition:background .2s}
+.sticky-book:hover{background:#d4890e;text-decoration:none;color:#fff}
+.sticky-call{flex:1;background:#333;color:#fff;text-align:center;padding:14px;font-weight:700;font-size:15px;text-decoration:none;display:block;transition:background .2s}
+.sticky-call:hover{background:#555;text-decoration:none;color:#fff}
+.sticky-x{background:none;border:none;padding:14px 18px;font-size:20px;cursor:pointer;color:#999;transition:color .2s}
+.sticky-x:hover{color:#333}
+
+/* MOBILE */
+@media(max-width:900px){
+  .main-nav{display:none;width:100%;order:3}
+  .main-nav.open{display:block}
+  .main-nav ul{flex-direction:column;gap:0}
+  .main-nav ul li a{padding:12px 16px;border-bottom:1px solid #f0f0f0}
+  .has-dropdown .dropdown{position:static;box-shadow:none;padding-left:16px}
+  .has-dropdown:hover .dropdown{display:none}
+  .has-dropdown.open .dropdown{display:block}
+  .hamburger{display:block}
+  .vp-grid{grid-template-columns:1fr}
+  .cat-grid{grid-template-columns:repeat(2,1fr)}
+  .steps-grid{grid-template-columns:1fr}
+  .reviews-grid{grid-template-columns:1fr}
+  .pkg-grid{grid-template-columns:1fr 1fr}
+  .footer-grid{grid-template-columns:1fr}
+  .topbar-inner{justify-content:center;text-align:center}
+  .logo{height:50px}
+  h1{font-size:1.6rem}
+  h2{font-size:1.4rem}
+  .hero-inner a{flex:0 1 220px}
+  .hero{min-height:200px;padding:30px 15px}
+}
+@media(max-width:500px){
+  .cat-grid{grid-template-columns:1fr 1fr}
+  .pkg-grid{grid-template-columns:1fr}
+  .hero-inner a{flex:0 1 140px}
+                        }/* Friendly Party Rental - style.css | Brand: #f5a31b */
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
 body{font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;line-height:1.7;color:#333;background:#fff}
