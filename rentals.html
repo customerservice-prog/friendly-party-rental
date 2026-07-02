@@ -1,112 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Party Rentals Syracuse NY - Browse and Book Online | Friendly Party Rental</title>
-  <meta name="description" content="Browse and book party rentals in Syracuse, NY. Tents, tables, chairs, bounce houses, linens, concessions, and more. Secure checkout with Stripe.">
-  <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Party Rentals Syracuse NY - Browse &amp; Book Online | Friendly Party Rental</title>
+<meta name="description" content="Browse and book party rentals in Syracuse NY. Tents, tables, chairs, bounce houses, linens, concessions and more. Easy online booking.">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="topbar">
-    <div class="container topbar-inner">
-      <div class="topbar-left">
-        <a href="tel:3158841498">315-884-1498</a> | <a href="sms:3158841498">Text Us</a> | <a href="mailto:customerservice@friendlypartyrental.com">customerservice@friendlypartyrental.com</a>
-      </div>
-      <div class="topbar-right">
-        <a href="https://www.facebook.com/profile.php?id=61554646135412" target="_blank">Facebook</a>
-        <a href="https://www.yelp.com/biz/friendly-party-rental-syracuse" target="_blank">Yelp</a>
-      </div>
+<div id="topbar" class="topbar">
+  <div class="topbar-inner">
+    <span><a href="tel:3158841498">(315) 884-1498</a></span>
+    <span><a href="mailto:info@friendlypartyrental.com">info@friendlypartyrental.com</a></span>
+    <span>Syracuse, NY &amp; Surrounding Areas</span>
+    <span class="topbar-social">
+      <a href="https://www.facebook.com/friendlypartyrental" target="_blank">Facebook</a>
+      <a href="https://www.instagram.com/friendlypartyrental" target="_blank">Instagram</a>
+    </span>
+  </div>
+</div>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo-link"><img src="https://files.sysers.com/cp/upload/315/editor/1.png" alt="Friendly Party Rental Logo" class="logo-img"></a>
+    <nav class="main-nav">
+      <button class="hamburger" aria-label="Menu">&#9776;</button>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li class="has-dropdown"><a href="rentals.html" class="active">Rentals</a>
+          <ul class="dropdown">
+            <li><a href="rentals.html">All Rentals</a></li>
+            <li><a href="weddings.html">Weddings</a></li>
+          </ul>
+        </li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="service-area.html">Service Area</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="faq.html">FAQs</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="https://friendly-party-rental-llc.booqable.com" class="btn-book" target="_blank">Book Now</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<section class="page-hero" style="background:#f5a31b;padding:60px 20px;text-align:center;">
+  <h1 style="color:#fff;font-size:2.5rem;margin:0 0 10px;">Party Rentals in Syracuse, NY</h1>
+  <p style="color:#fff;font-size:1.1rem;max-width:600px;margin:0 auto;">Browse all available items, select your rental dates, and book securely online.</p>
+</section>
+<section class="section-wrap" style="background:#fff;padding:60px 20px;">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:40px;">
+      <h2 style="color:#1a1a1a;margin-bottom:10px;">Browse &amp; Book Party Equipment</h2>
+      <p style="color:#555;">Select your event dates, then add items to your cart and check out online.</p>
+    </div>
+    <div class="booqable-datepicker"></div>
+    <div class="booqable-product-list" style="margin-top:30px;"></div>
+  </div>
+</section>
+<section class="section-wrap" style="background:#f5f5f5;padding:60px 20px;">
+  <div class="container">
+    <h2 style="text-align:center;color:#1a1a1a;margin-bottom:40px;">Browse by Category</h2>
+    <div class="cat-grid">
+      <a href="https://friendly-party-rental-llc.booqable.com" class="cat-card" target="_blank">
+        <div class="cat-img-wrap"><img src="https://files.sysers.com/cp/upload/315/categories/med/tent-rentals-category.jpg" alt="Tent Rentals"></div>
+        <span>Tent Rentals</span>
+      </a>
+      <a href="https://friendly-party-rental-llc.booqable.com" class="cat-card" target="_blank">
+        <div class="cat-img-wrap"><img src="https://files.sysers.com/cp/upload/315/categories/med/table-and-chair-rentals-category.jpg" alt="Tables &amp; Chairs"></div>
+        <span>Tables &amp; Chairs</span>
+      </a>
+      <a href="https://friendly-party-rental-llc.booqable.com" class="cat-card" target="_blank">
+        <div class="cat-img-wrap"><img src="https://files.sysers.com/cp/upload/315/categories/med/bounce-house-rentals-category.jpg" alt="Bounce Houses"></div>
+        <span>Bounce Houses</span>
+      </a>
+      <a href="https://friendly-party-rental-llc.booqable.com" class="cat-card" target="_blank">
+        <div class="cat-img-wrap"><img src="https://files.sysers.com/cp/upload/315/categories/med/linen-rentals-category.jpg" alt="Linens"></div>
+        <span>Linen Rentals</span>
+      </a>
+      <a href="https://friendly-party-rental-llc.booqable.com" class="cat-card" target="_blank">
+        <div class="cat-img-wrap"><img src="https://files.sysers.com/cp/upload/315/categories/med/dance-floor-rentals-category.jpg" alt="Dance Floors"></div>
+        <span>Dance Floors</span>
+      </a>
+      <a href="https://friendly-party-rental-llc.booqable.com" class="cat-card" target="_blank">
+        <div class="cat-img-wrap"><img src="https://files.sysers.com/cp/upload/315/categories/med/concession-machine-rentals-category.jpg" alt="Concessions"></div>
+        <span>Concessions</span>
+      </a>
+      <a href="https://friendly-party-rental-llc.booqable.com" class="cat-card" target="_blank">
+        <div class="cat-img-wrap"><img src="https://files.sysers.com/cp/upload/315/categories/med/event-lighting-rentals-category.jpg" alt="Event Lighting"></div>
+        <span>Event Lighting</span>
+      </a>
+      <a href="https://friendly-party-rental-llc.booqable.com" class="cat-card" target="_blank">
+        <div class="cat-img-wrap"><img src="https://files.sysers.com/cp/upload/315/categories/med/generator-rentals-category.jpg" alt="Generators"></div>
+        <span>Generators</span>
+      </a>
+      <a href="https://friendly-party-rental-llc.booqable.com" class="cat-card" target="_blank">
+        <div class="cat-img-wrap"><img src="https://files.sysers.com/cp/upload/315/categories/med/photobooth-rentals-category.jpg" alt="Photobooth"></div>
+        <span>Photobooth</span>
+      </a>
+      <a href="https://friendly-party-rental-llc.booqable.com" class="cat-card" target="_blank">
+        <div class="cat-img-wrap"><img src="https://files.sysers.com/cp/upload/315/categories/med/yard-game-rentals-category.jpg" alt="Yard Games"></div>
+        <span>Yard Games</span>
+      </a>
+      <a href="https://friendly-party-rental-llc.booqable.com" class="cat-card" target="_blank">
+        <div class="cat-img-wrap"><img src="https://files.sysers.com/cp/upload/315/categories/med/party-packages-category.jpg" alt="Party Packages"></div>
+        <span>Party Packages</span>
+      </a>
+      <a href="https://friendly-party-rental-llc.booqable.com" class="cat-card" target="_blank">
+        <div class="cat-img-wrap"><img src="https://files.sysers.com/cp/upload/315/categories/med/heaters-and-fans-rentals-category.jpg" alt="Heaters &amp; Fans"></div>
+        <span>Heaters &amp; Fans</span>
+      </a>
+      <a href="https://friendly-party-rental-llc.booqable.com" class="cat-card" target="_blank">
+        <div class="cat-img-wrap"><img src="https://files.sysers.com/cp/upload/315/categories/med/staging-rentals-category.jpg" alt="Staging"></div>
+        <span>Staging</span>
+      </a>
+      <a href="https://friendly-party-rental-llc.booqable.com" class="cat-card" target="_blank">
+        <div class="cat-img-wrap"><img src="https://files.sysers.com/cp/upload/315/categories/med/wedding-rentals-category.jpg" alt="Wedding Rentals"></div>
+        <span>Wedding Rentals</span>
+      </a>
+      <a href="https://friendly-party-rental-llc.booqable.com" class="cat-card" target="_blank">
+        <div class="cat-img-wrap"><img src="https://files.sysers.com/cp/upload/315/categories/med/backdrop-rentals-category.jpg" alt="Backdrops"></div>
+        <span>Backdrops</span>
+      </a>
+      <a href="https://friendly-party-rental-llc.booqable.com" class="cat-card" target="_blank">
+        <div class="cat-img-wrap"><img src="https://files.sysers.com/cp/upload/315/categories/med/kids-party-rentals-category.jpg" alt="Kids Party"></div>
+        <span>Kids Party</span>
+      </a>
     </div>
   </div>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a href="index.html"><img src="https://files.sysers.com/cp/upload/315/editor/1.png" alt="Friendly Party Rental" class="logo"></a>
-      <nav class="main-nav" id="mainNav">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="weddings.html">Weddings</a></li>
-          <li class="dropdown"><a href="rentals.html">Rentals</a>
-            <ul class="dropdown-menu">
-              <li><a href="rentals.html#tents">Tent Rentals</a></li>
-              <li><a href="rentals.html#tables-chairs">Table and Chair Rentals</a></li>
-              <li><a href="rentals.html#bounce-houses">Bounce Houses</a></li>
-              <li><a href="rentals.html#linens">Linen Rentals</a></li>
-              <li><a href="rentals.html#concessions">Concession Machines</a></li>
-              <li><a href="rentals.html#dance-floor">Dance Floors and Stages</a></li>
-              <li><a href="rentals.html#lighting">Event Lighting</a></li>
-              <li><a href="rentals.html#generators">Generators</a></li>
-              <li><a href="rentals.html#photobooth">Photobooths</a></li>
-              <li><a href="rentals.html#yard-games">Yard Games</a></li>
-              <li><a href="rentals.html#packages">Party Packages</a></li>
-              <li><a href="rentals.html#heating">Heaters and Fans</a></li>
-            </ul>
-          </li>
-          <li><a href="faq.html">FAQs</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="service-area.html">Service Area</a></li>
-        </ul>
-      </nav>
-      <div class="header-actions">
-        <a href="rentals.html" class="btn btn-primary">Book Now</a>
-        <button class="hamburger" id="hamburger">Menu</button>
-      </div>
+</section>
+<footer class="site-footer-main">
+  <div class="footer-inner">
+    <div class="footer-col">
+      <img src="https://files.sysers.com/cp/upload/315/editor/1.png" alt="Friendly Party Rental" class="footer-logo">
+      <p>Syracuse's #1 party rental company. Bounce houses, tents, tables, chairs &amp; more!</p>
     </div>
-  </header>
-  <section class="page-hero">
-    <div class="container">
-      <h1 style="font-family:Montserrat,sans-serif;font-size:2.2rem;margin-bottom:10px;">Party Rentals in Syracuse, NY</h1>
-      <p style="font-size:1.1rem;max-width:600px;margin:0 auto;">Select your rental period and browse all available items. Secure checkout powered by Stripe.</p>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rentals.html">Rentals</a></li>
+        <li><a href="weddings.html">Weddings</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="service-area.html">Service Area</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="faq.html">FAQs</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </div>
-  </section>
-  <section class="section">
-    <div class="container">
-      <div style="text-align:center;margin-bottom:30px;">
-        <h2 style="font-family:Montserrat,sans-serif;color:#222;margin-bottom:10px;">Choose Your Rental Date and Browse Items</h2>
-        <p style="color:#666;">Pick your event date, then add items to your cart and check out securely with Stripe.</p>
-      </div>
-      <div class="booqable-datepicker"></div>
-      <div class="booqable-product-list" style="margin-top:30px;"></div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <p><a href="tel:3158841498">(315) 884-1498</a></p>
+      <p><a href="mailto:info@friendlypartyrental.com">info@friendlypartyrental.com</a></p>
+      <p>Syracuse, NY &amp; Surrounding Areas</p>
     </div>
-  </section>
-  <section class="section bg-light">
-    <div class="container">
-      <h2 style="font-family:Montserrat,sans-serif;color:#222;text-align:center;margin-bottom:40px;">Browse by Category</h2>
-      <div class="cat-grid">
-        <a href="#tents" class="cat-card" id="tents"><div class="cat-icon">Tent</div><span>Tent Rentals</span></a>
-        <a href="#tables-chairs" class="cat-card" id="tables-chairs"><div class="cat-icon">Table</div><span>Tables and Chairs</span></a>
-        <a href="#bounce-houses" class="cat-card" id="bounce-houses"><div class="cat-icon">Bounce</div><span>Bounce Houses</span></a>
-        <a href="#linens" class="cat-card" id="linens"><div class="cat-icon">Linen</div><span>Linens</span></a>
-        <a href="#dance-floor" class="cat-card" id="dance-floor"><div class="cat-icon">Dance</div><span>Dance Floors</span></a>
-        <a href="#concessions" class="cat-card" id="concessions"><div class="cat-icon">Food</div><span>Concessions</span></a>
-        <a href="#lighting" class="cat-card" id="lighting"><div class="cat-icon">Light</div><span>Event Lighting</span></a>
-        <a href="#generators" class="cat-card" id="generators"><div class="cat-icon">Power</div><span>Generators</span></a>
-        <a href="#photobooth" class="cat-card" id="photobooth"><div class="cat-icon">Photo</div><span>Photobooth</span></a>
-        <a href="#yard-games" class="cat-card" id="yard-games"><div class="cat-icon">Game</div><span>Yard Games</span></a>
-        <a href="#packages" class="cat-card" id="packages"><div class="cat-icon">Pkg</div><span>Party Packages</span></a>
-        <a href="#heating" class="cat-card" id="heating"><div class="cat-icon">Heat</div><span>Heaters and Fans</span></a>
-      </div>
-    </div>
-  </section>
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <div class="footer-col">
-        <img src="https://files.sysers.com/cp/upload/315/editor/1.png" alt="Friendly Party Rental" class="footer-logo">
-        <p>315-884-1498<br>customerservice@friendlypartyrental.com<br>330 Costello Parkway, Minoa, NY 13116</p>
-      </div>
-      <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="weddings.html">Weddings</a></li><li><a href="rentals.html">Rentals</a></li><li><a href="faq.html">FAQs</a></li><li><a href="contact.html">Contact Us</a></li></ul></div>
-      <div class="footer-col"><h4>Service Areas</h4><p>Syracuse, Minoa, Cicero, Manlius, North Syracuse, Liverpool, Fayetteville, Camillus, Baldwinsville</p></div>
-    </div>
-    <div class="footer-bottom"><p>2025 Friendly Party Rental L.L.C. All rights reserved.</p></div>
-  </footer>
-  <div class="sticky-bar">
-    <a href="rentals.html" class="btn btn-primary">Book Now</a>
-    <a href="tel:3158841498" class="btn btn-outline">Call Us</a>
   </div>
-  <script src="https://55447dae-f899-4b7a-9a5b-23234c3e9094.assets.booqable.com/v2/booqable.js"></script>
-  <script src="js/main.js"></script>
+  <div class="footer-bottom">
+    <p>&copy; 2024 Friendly Party Rental LLC. All rights reserved.</p>
+  </div>
+</footer>
+<div id="stickyBar" class="sticky-bar">
+  <span>Ready to book? Reserve your party equipment today!</span>
+  <a href="https://friendly-party-rental-llc.booqable.com" class="sticky-book" target="_blank">Book Now</a>
+  <a href="tel:3158841498" class="sticky-call">Call Us</a>
+  <button class="sticky-x" onclick="document.getElementById('stickyBar').style.display='none'">&times;</button>
+</div>
+<script src="https://55447dae-f899-4b7a-9a5b-23234c3e9094.assets.booqable.com/v2/booqable.js"></script>
+<script src="js/main.js"></script>
 </body>
-</html>
+  </html>
