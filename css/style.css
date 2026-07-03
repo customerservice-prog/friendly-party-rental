@@ -316,3 +316,7 @@ body{padding-bottom:60px}
 /* HERO BADGE IMAGES - RESPONSIVE */
 @media(max-width:900px){.hero-inner img{max-width:200px}}
 @media(max-width:600px){.hero-inner img{max-width:140px}}
+
+/* Fix topbar social links spacing - site-wide */
+.topbar-social{display:inline-flex;gap:10px}
+.footer-social a{margin-right:0}
